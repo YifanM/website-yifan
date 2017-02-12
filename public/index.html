@@ -4,7 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/flatly.min.css">
+    <script type="text/javascript">
+      var time = new Date().getHours();
+      if (7 <= time && time <= 20) {
+        document.write("<link rel='stylesheet' href='%PUBLIC_URL%/flatly.min.css' type='text/css'>");
+      }
+      else {
+        document.write("<link rel='stylesheet' href='%PUBLIC_URL%/darkly.min.css' type='text/css'>");
+      }
+    </script>
+    <noscript>
+      <link rel='stylesheet' href='%PUBLIC_URL%/flatly.min.css' type='text/css'>
+    </noscript>
     <title>Yifan Ma</title>
   </head>
   <body>
