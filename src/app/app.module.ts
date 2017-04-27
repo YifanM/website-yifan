@@ -8,8 +8,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './app.header';
 import { FooterComponent } from './app.footer';
 import { HomeComponent } from './app.home';
-import { DocumentsComponent } from "./app.documents";
+import { DocumentsComponent } from './app.documents';
 import { OtherWorkComponent } from './app.otherwork';
+import { SidebarComponent } from './app.sidebar';
 
 const appRoutes: Routes = [
   {
@@ -37,7 +38,8 @@ const appRoutes: Routes = [
     FooterComponent,
     HomeComponent,
     DocumentsComponent,
-    OtherWorkComponent
+    OtherWorkComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

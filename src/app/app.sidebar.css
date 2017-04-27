@@ -1,0 +1,18 @@
+#sidebar {
+	position: absolute;
+	left: 0;
+	top: 6rem;
+	height: calc(100% - 10rem);
+	display: flex;
+}
+
+#sidebar-content {
+	display: none;
+	width: 20vw;
+	background: green;
+}
+
+#sidebar-selector {
+	width: 1rem;
+	background: orange;
+}

@@ -7,11 +7,4 @@ import { Component } from '@angular/core';
 })
 
 export class HeaderComponent {
-	/*constructor (private router: Router) {
-		router.events.subcribe(event: Event => {
-			if (event instanceof NavigationStart) {
-
-			}
-		});
-	}*/
 }

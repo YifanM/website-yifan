@@ -11,5 +11,11 @@
 }
 
 .footer i {
+	position: relative;
 	margin-right: 0.8rem;
+	font-size: large;
+}
+
+.footer .fa-linkedin {
+	bottom: 0.1rem;
 }
