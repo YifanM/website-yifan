@@ -7,11 +7,47 @@
 
 #work img {
 	height: 15rem;
-	border: white solid 0.2rem;
-	width: 65%;
+	border: #0ce3ac solid 0.2rem;
+	box-shadow: 0 0 1rem #888888;
+	width: 100%;
+	object-fit: cover;
 }
 
 .work-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 65%;
+	height: 100%;
+}
+
+.lowTopHeader {
+	margin-top: 1.5rem;
+}
+
+#work h3 {
+	margin-bottom: 2.5rem;
+}
+
+#work .row {
+	margin-bottom: 1rem;
+}
+
+#work .topRow .work-item {
+	width: 50%;
+}
+
+#work .list-group {
+	margin-top: 1rem;
+	text-align: left;
+	font-size: 1.3rem;
+}
+
+#work .collapse, #work .collapse-in, #work .collapsing {
+	width: 75%;
+}
+
+#work .col-sm-4, .col-sm-3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;

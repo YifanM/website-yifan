@@ -1,4 +1,4 @@
-@import url('resources/css/animate.css');
+@import url('assets/css/animate.css');
 
 body {
 	height: 100vh;
@@ -9,31 +9,31 @@ body {
 
 @font-face{
 	font-family: 'Raleway';
-	src: url('resources/fonts/Raleway-Regular.ttf');
+	src: url('assets/fonts/Raleway-Regular.ttf');
 }
 
 @font-face{
 	font-family: 'AvantGarde';
-	src: url('resources/fonts/ITCAvantGardePro-XLt.ttf');
+	src: url('assets/fonts/ITCAvantGardePro-XLt.ttf');
 }
 
 @font-face{
 	font-family: 'AvantGardeBold';
-	src: url('resources/fonts/ITCAvantGardePro-Bold.ttf');
+	src: url('assets/fonts/ITCAvantGardePro-Bold.ttf');
 }
 
 @font-face{
 	font-family: 'Raleway_Light';
-	src: url('resources/fonts/Raleway-Light.ttf');
+	src: url('assets/fonts/Raleway-Light.ttf');
 }
 
 @font-face{
 	font-family: 'Raleway_Thin';
-	src: url('resources/fonts/Raleway-Thin.ttf');
+	src: url('assets/fonts/Raleway-Thin.ttf');
 }
 
 .showFlex {
-	display: flex;
+	display: flex !important;
 }
 
 ::-webkit-scrollbar { 

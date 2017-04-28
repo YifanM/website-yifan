@@ -4,6 +4,11 @@
 	top: 6rem;
 	height: calc(100% - 10rem);
 	display: flex;
+	z-index: 100;
+}
+
+#sidebar i {
+	color: black;
 }
 
 #sidebar-content {
@@ -13,6 +18,10 @@
 }
 
 #sidebar-selector {
-	width: 1rem;
+	width: 1.5rem;
 	background: orange;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
