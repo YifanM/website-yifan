@@ -9,17 +9,19 @@
 
 #sidebar i {
 	color: black;
+	font-size: x-large;
 }
 
 #sidebar-content {
+	padding: 1rem;
 	display: none;
 	width: 20vw;
-	background: green;
+	height: 100%;
 }
 
 #sidebar-selector {
-	width: 1.5rem;
-	background: orange;
+	width: 2rem;
+	background: #217dbb;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

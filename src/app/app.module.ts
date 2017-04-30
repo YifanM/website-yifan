@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './app.header';
@@ -11,6 +12,8 @@ import { HomeComponent } from './app.home';
 import { DocumentsComponent } from './app.documents';
 import { OtherWorkComponent } from './app.otherwork';
 import { SidebarComponent } from './app.sidebar';
+
+import { RouterService } from './app.router.service';
 
 const appRoutes: Routes = [
   {
@@ -45,9 +48,12 @@ const appRoutes: Routes = [
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(appRoutes, { useHash: true })
+    BrowserAnimationsModule,
+    RouterModule.forRoot(appRoutes, { useHash: true }),
   ],
-  providers: [],
+  providers: [
+    RouterService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -21,6 +21,10 @@
 	height: 100%;
 }
 
+.collapse b, .collapse-in b, .collapsing b {
+	font-size: 1.6rem;
+}
+
 .lowTopHeader {
 	margin-top: 1.5rem;
 }
@@ -33,8 +37,8 @@
 	margin-bottom: 1rem;
 }
 
-#work .topRow .work-item {
-	width: 50%;
+#work .topRow img {
+	height: 20rem;
 }
 
 #work .list-group {
