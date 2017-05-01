@@ -3,6 +3,6 @@
 }
 
 #documents {
-	height: calc(100% - 10rem);
+	height: 100%;
 	margin-bottom: 0;
 }

@@ -1,14 +1,9 @@
 import { Component } from '@angular/core';
-import { routerTransition } from './app.router.animations';
 
 @Component({
   selector: 'app-documents',
   templateUrl: './app.documents.html',
-  styleUrls: ['./app.documents.css'],
-  animations: [routerTransition()],
-  host: {'[@routerTransition]': ''}
+  styleUrls: ['./app.documents.css']
 })
 
-export class DocumentsComponent {
-
-}
+export class DocumentsComponent { }

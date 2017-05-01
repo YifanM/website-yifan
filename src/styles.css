@@ -39,3 +39,7 @@ body {
 ::-webkit-scrollbar { 
     display: none; 
 }
+
+.invisible {
+	opacity: 0;
+}

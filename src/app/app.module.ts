@@ -13,8 +13,6 @@ import { DocumentsComponent } from './app.documents';
 import { OtherWorkComponent } from './app.otherwork';
 import { SidebarComponent } from './app.sidebar';
 
-import { RouterService } from './app.router.service';
-
 const appRoutes: Routes = [
   {
     path: 'home',
@@ -51,9 +49,7 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     RouterModule.forRoot(appRoutes, { useHash: true }),
   ],
-  providers: [
-    RouterService
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

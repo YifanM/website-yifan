@@ -1,8 +1,21 @@
 #home {
-	height: calc(100% - 10rem);
+	height: 100%;
 	margin-bottom: 0;
 }
 
 #home h1 {
+	font-size: 10rem;
 	font-family: Raleway_Thin, Raleway, sans-serif;
+}
+
+.raleway {
+	font-size: 3.5rem;
+	font-family: Raleway_Thin, Raleway, sans-serif;
+}
+
+#home .container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }

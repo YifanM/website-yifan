@@ -1,6 +1,6 @@
 import {trigger, state, animate, style, transition} from '@angular/core';
 
-export function routerTransition(left?) {
+export function routerTransition(left = false, active = false) {
   return left ? slideToLeft() : slideToRight();
 }
 

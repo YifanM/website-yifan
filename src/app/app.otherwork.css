@@ -1,23 +1,35 @@
 #work {
-	height: calc(100% - 10rem);
+	height: 100%;
 	margin-bottom: 0;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
 
 #work img {
-	height: 15rem;
+	height: 30vh;
 	border: #0ce3ac solid 0.2rem;
-	box-shadow: 0 0 1rem #888888;
 	width: 100%;
 	object-fit: cover;
+}
+
+#work img:hover {
+	object-fit: contain !important;
+}
+
+#indesign-carousel {
+	margin-top: 1rem;
+}
+
+#indesign-carousel img {
+	border: none;
+	height: 50vh;
 }
 
 .work-item {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 65%;
+	width: 80%;
 	height: 100%;
 }
 
@@ -37,10 +49,6 @@
 	margin-bottom: 1rem;
 }
 
-#work .topRow img {
-	height: 20rem;
-}
-
 #work .list-group {
 	margin-top: 1rem;
 	text-align: left;
@@ -48,11 +56,19 @@
 }
 
 #work .collapse, #work .collapse-in, #work .collapsing {
-	width: 75%;
+	width: 100%;
 }
 
 #work .col-sm-4, .col-sm-3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+#work {
+	padding-top: 0 !important;
+}
+
+.externalWorkUrl {
+	padding-left: 1rem;
 }
