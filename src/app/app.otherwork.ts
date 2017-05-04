@@ -25,7 +25,7 @@ export class OtherWorkComponent {
 			title: "Imagine Communications",
 			timeline: "January 2017 - April 2017 (2A)",
 			description: `I worked as a full-stack web developer.
-				Primarily, I worked on the web UI,using AngularJS and LESS, for a commercial content management software.
+				Primarily, I worked on the web UI, using AngularJS and LESS, for a commercial content management software.
 				My team was Agile, so I learnt to coordinate smoothly with the other developers and QA.
 				Some features I added were difficult such as custom directives, scope manipulation, and big chains of multiple promises.
 				I also updated some of the UI's unit tests.`,
@@ -38,7 +38,7 @@ export class OtherWorkComponent {
 			timeline: "May 2016 - September 2016 (1B)",
 			description: `I worked remotely for this start-up as a front-end web developer.
 				I did this part-time during my first co-op because I felt the day job wasn't challenging enough.
-				When I was working on this, Angular 2 was quite new so I learnt to adapt quickly and figure things out without as many resources as I am used to having.
+				When I was working on this, we used Angular 2 which was quite new so I learnt to adapt quickly and figure things out with limited resources.
 				We used socket.io for web sockets (as it was a real-time trading platform) and I wrote the node.js server to handle the socket channels`,
 			technologies: "Angular 2, node.js, Typescript, socket.io",
 			imageUrl: "assets/images/metal.jpg"
@@ -47,10 +47,10 @@ export class OtherWorkComponent {
 			id: "work3",
 			title: "AAFC",
 			timeline: "May 2016 - September 2016 (1B)",
-			description: `I worked as an application programmer in VB.
+			description: `I worked as an application programmer in VB.NET.
 				The application would read, analyze, and graph (automating Excel) agricultural data files.
 				I also updated the CANB Nitrogen Model, which was a calculation program written in Fortran.`,
-			technologies: "VB, VBA, Fortran",
+			technologies: "VB.NET, Fortran",
 			imageUrl: "assets/images/aafc.jpeg"
 		},
 	]
