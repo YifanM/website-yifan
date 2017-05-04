@@ -12,6 +12,7 @@ import { HomeComponent } from './app.home';
 import { DocumentsComponent } from './app.documents';
 import { OtherWorkComponent } from './app.otherwork';
 import { SidebarComponent } from './app.sidebar';
+import { UWComponent } from './app.uw';
 
 const appRoutes: Routes = [
   {
@@ -27,6 +28,10 @@ const appRoutes: Routes = [
     component: DocumentsComponent
   },
   {
+    path: 'uw',
+    component: UWComponent
+  },
+  {
     path: '**',
     redirectTo: 'home',
   },
@@ -40,7 +45,8 @@ const appRoutes: Routes = [
     HomeComponent,
     DocumentsComponent,
     OtherWorkComponent,
-    SidebarComponent
+    SidebarComponent,
+    UWComponent
   ],
   imports: [
     BrowserModule,

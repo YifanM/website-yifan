@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
 
 	constructor (private router: Router) { }
 
-	private pageOrders: {} = { '/home': 0, '/work': 1, '/documents': 2 };
+	private pageOrders: {} = { '/home': 0, '/work': 1, '/documents': 2, '/uw': 3 };
 
 	ngOnInit() {
 		this.router.events.pairwise().filter((e) => e[0] instanceof NavigationEnd && e[1] instanceof NavigationStart).subscribe((e: [NavigationStart, NavigationEnd]) => {

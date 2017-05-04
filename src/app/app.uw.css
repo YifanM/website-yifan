@@ -1,0 +1,31 @@
+#uw {
+	height: calc(100% - 0.1rem);
+	margin-bottom: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#uw .container-fluid {
+	margin: auto;
+	flex-grow: 1;
+}
+
+.table {
+	margin: auto;
+	display: table;
+	width: 80vw;
+	flex-grow: 5;
+	max-height: calc(100% - 10rem);
+}
+
+.table > thead {
+	border-bottom: gray solid 0.4rem;
+}
+
+.table > tbody > tr {
+	border-bottom: gray solid 0.2rem;
+}
