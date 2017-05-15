@@ -36,12 +36,12 @@ export class OtherWorkComponent {
 		{
 			id: "work2",
 			title: "Metal Trading Co.",
-			timeline: "May 2016 - September 2016 (1B)",
+			timeline: "May 2016 - July 2016 (1B)",
 			description: `I worked remotely for this start-up as a front-end web developer.
 				I did this part-time during my first co-op because I felt the day job wasn't challenging enough.
 				When I was working on this, we used Angular 2 which was quite new so I learnt to adapt quickly and figure things out with limited resources.
 				We used socket.io for web sockets (as it was a real-time trading platform) and I wrote the node.js server to handle the socket channels.
-				By the end of the two months, I created a working prototype mostly independently.`,
+				By the end of the three months, I created a working prototype mostly independently.`,
 			technologies: "Angular 2, node.js, Typescript, socket.io",
 			imageUrl: "assets/images/metal.jpg"
 		},
@@ -69,8 +69,7 @@ export class OtherWorkComponent {
 				In the future, I plan to add features like a comments section.`,
 			technologies: "Angular 2",
 			imageUrl: "assets/images/website1.png",
-			sourceUrl: "https://github.com/YifanM/professional-website-yifan",
-			demoUrl: "http://pix.iemoji.com/images/emoji/apple/ios-9/256/thinking-face.png"
+			sourceUrl: "https://github.com/YifanM/professional-website-yifan"
 		},
 		{
 			id: "work5",
@@ -101,7 +100,7 @@ export class OtherWorkComponent {
 			id: "work7",
 			title: "Battle Pong",
 			timeline: "March 2017 - Now (In progress)",
-			description: `My first android application.
+			description: `My first Android application.
 				It's based on pong, but with a lot of extra features.
 				For example, you can collect a weapon that will paralyze your opponent or spawn more balls.
 				I still want to add a two player online mode and an AI for single player mode.`,
