@@ -22,14 +22,20 @@
 #sidebar-content > img {
 	width: 100%;
 	margin-bottom: 1rem;
+	border: 0.2rem solid;
+	box-shadow: 0 0 1rem;
 }
 
 #sidebar-content > h3 {
 	text-align: center;
+	border-bottom: 0.1rem solid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
 }
 
 #sidebar-content > div {
-	margin-bottom: 1rem;
+	margin: 1rem 0;
 }
 
 #sidebar-selector {

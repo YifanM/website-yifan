@@ -3,9 +3,25 @@
 	margin-bottom: 0;
 }
 
-#home h1 {
+#home .container h1 {
 	font-size: 10rem;
 	font-family: Raleway_Thin, Raleway, sans-serif;
+	flex-grow: 0;
+	border-bottom: 0.2rem solid;
+	margin-bottom: 0.85rem;
+	text-align: left;
+}
+
+#home .container .raleway {
+	flex-grow: 5; 
+	text-align: right;
+}
+
+#home .container > div:not(.raleway) {
+	flex-grow: 10;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .raleway {
@@ -18,4 +34,5 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-content: center;
 }

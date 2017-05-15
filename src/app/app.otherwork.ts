@@ -25,10 +25,11 @@ export class OtherWorkComponent {
 			title: "Imagine Communications",
 			timeline: "January 2017 - April 2017 (2A)",
 			description: `I worked as a full-stack web developer.
-				Primarily, I worked on the web UI, using AngularJS and LESS, for a commercial content management software.
+				Primarily, I worked on the web UI for a content management application using AngularJS and LESS.
+				This sometimes took me into difficult territory such as scope manipulation but I still managed to do it.
+				Also, I updated some of the UI's unit tests.
 				My team was Agile, so I learnt to coordinate smoothly with the other developers and QA.
-				Some features I added were difficult such as custom directives, scope manipulation, and big chains of multiple promises.
-				I also updated some of the UI's unit tests.`,
+				Over the four months, I completed almost 100 stories/bugs which, my manager told me, was quite impressive.`,
 			technologies: "AngularJS, Typescript, LESS, Mercurial",
 			imageUrl: "assets/images/imagine-communications.png"
 		},
@@ -39,7 +40,8 @@ export class OtherWorkComponent {
 			description: `I worked remotely for this start-up as a front-end web developer.
 				I did this part-time during my first co-op because I felt the day job wasn't challenging enough.
 				When I was working on this, we used Angular 2 which was quite new so I learnt to adapt quickly and figure things out with limited resources.
-				We used socket.io for web sockets (as it was a real-time trading platform) and I wrote the node.js server to handle the socket channels`,
+				We used socket.io for web sockets (as it was a real-time trading platform) and I wrote the node.js server to handle the socket channels.
+				By the end of the two months, I created a working prototype mostly independently.`,
 			technologies: "Angular 2, node.js, Typescript, socket.io",
 			imageUrl: "assets/images/metal.jpg"
 		},
@@ -48,8 +50,10 @@ export class OtherWorkComponent {
 			title: "AAFC",
 			timeline: "May 2016 - September 2016 (1B)",
 			description: `I worked as an application programmer in VB.NET.
-				The application would read, analyze, and graph (automating Excel) agricultural data files.
-				I also updated the CANB Nitrogen Model, which was a calculation program written in Fortran.`,
+				The application would read, analyze, and graph agricultural data files.
+				I also updated the CANB Nitrogen Model, which was like a big calculation program written in Fortran.
+				I saw that lots of the existing code could be improved, so I rewrote certain parts with the permission of my manager.
+				In addition, I took the initiative to add useful features when I thought of them, such as adding more automation to the testing program.`,
 			technologies: "VB.NET, Fortran",
 			imageUrl: "assets/images/aafc.jpeg"
 		},
@@ -62,7 +66,7 @@ export class OtherWorkComponent {
 			description: `My current website in Angular 2.
 				Its purpose is kind of like a bigger resume. 
 				I use external CSS libraries such as animate.css and Bootstrap, but a lot of my custom CSS is used as well.
-				There is nothing terribly special about this website yet, but I plan to add features which require a back-end.`,
+				In the future, I plan to add features like a comments section.`,
 			technologies: "Angular 2",
 			imageUrl: "assets/images/website1.png",
 			sourceUrl: "https://github.com/YifanM/professional-website-yifan",
@@ -75,8 +79,7 @@ export class OtherWorkComponent {
 			description: `A two-player board game.
 				If you're not familiar with Gomoku (not Go), it's like tic-tac-toe but with 5-in-a-row instead.
 				The board I made has three layers.
-				One is responsible for the background grid, one is responsible to animate and display the pieces, and one is responsible to receive clicks in order to update the game state.
-				I imported a modal and toasts to show rules and errors when I calculate an illegal move happens.`,
+				One is responsible for the background grid, one is responsible to animate and display the pieces, and one is responsible to receive clicks in order to update the game state.`,
 			technologies: "ReactJS",
 			imageUrl: "assets/images/gomoku.png",
 			sourceUrl: "https://github.com/YifanM/gomoku-react",
@@ -86,14 +89,13 @@ export class OtherWorkComponent {
 			id: "work6",
 			title: "YifanM.github.io",
 			timeline: "May 2016 - September 2016",
-			description: `This was my first try at web development and I decided to start big.
-				I tried to make as much code as possible entirely mine.
-				So that's not a great combination, which is why the code is pretty low quality and the website doesn't look great.
-				However, I learnt valuable things when creating my lightbox from scratch or when learning how to use AJAX requests and callbacks.`,
+			description: `This was my first try at web development, which is why the quality is not that high.
+				Most of the content has been moved to this website.
+				However, it seems the services I used (like a dictionary API) still work.`,
 			technologies: "JQuery, JavaScript, HTML, CSS",
 			imageUrl: "assets/images/website2.png",
 			sourceUrl: "https://github.com/YifanM/YifanM.github.io",
-			demoUrl: "https://YifanM.github.io"
+			demoUrl: "http://YifanM.github.io"
 		},
 		{
 			id: "work7",
@@ -101,7 +103,7 @@ export class OtherWorkComponent {
 			timeline: "March 2017 - Now (In progress)",
 			description: `My first android application.
 				It's based on pong, but with a lot of extra features.
-				For example, you can collect a weapon that will paralyze your opponent or spawn tens of balls.
+				For example, you can collect a weapon that will paralyze your opponent or spawn more balls.
 				I still want to add a two player online mode and an AI for single player mode.`,
 			technologies: "Java, XML, Android",
 			imageUrl: "assets/images/battle-pong.png",
@@ -114,8 +116,8 @@ export class OtherWorkComponent {
 			title: "Adoorable",
 			timeline: "April 2017",
 			description: `A simple single-player game with a twist at the end.
-				It's pretty much an exact copy of the original, which you can find by searching the same name.
-				Although simple, I still learnt things such as browser animation frames, game loops, and collisions.`,
+				The levels are designed to spell a message using the player's path.
+				It's pretty much an exact copy of the original, which you can find by searching the same name.`,
 			technologies: "HTML5 Canvas, JQuery, JavaScript",
 			imageUrl: "assets/images/adoorable.png",
 			sourceUrl: "https://github.com/YifanM/adoorable",
@@ -133,12 +135,14 @@ export class OtherWorkComponent {
 		{
 			id: "work10",
 			title: "Doodlejump",
-			timeline: "October 2016",
-			description: `My class was given some hardware devices.
+			timeline: "October 2015",
+			description: `My class was given some Arduino-like hardware devices.
 				Some of my classmates and me decided to recreate Doodlejump.
-				The program was written in Energia (similar to Arduino) and displayed on a bitmap OLED.`,
+				We tried a few other small programs, like a calculator that connects to a computer.
+				The program was written in Energia and used hardware features such as the OLED and the accelerometer.`,
 			technologies: "Tiva-C LaunchPad, Energia",
-			imageUrl: "assets/images/doodlejump.jpg"
+			imageUrl: "assets/images/doodlejump.jpg",
+			sourceUrl: "https://github.com/YifanM/orbit-demos"
 		},
 		{
 			id: "work11",
@@ -171,7 +175,7 @@ export class OtherWorkComponent {
 			description: `A project I did while in Shad Valley.
 				My group's idea was a blanket with sensors that would analyze your body metrics and control a smart thermostat accordingly.
 				The blanket contained an Arduino.
-				The code for the demo was to read the sensors and do some calculations.`,
+				The code for the demo, which I wrote, was simple: read the sensors, do some calculations, display the data.`,
 			technologies: "Arduino",
 			imageUrl: "assets/images/bonamat.jpg"
 		},

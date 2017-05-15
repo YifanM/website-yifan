@@ -16,6 +16,10 @@
 	object-fit: contain !important;
 }
 
+#work h3 {
+	text-decoration: underline;
+}
+
 #indesign-carousel {
 	margin-top: 1rem;
 }
