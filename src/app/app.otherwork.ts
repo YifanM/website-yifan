@@ -39,10 +39,10 @@ export class OtherWorkComponent {
 			timeline: "May 2016 - July 2016 (1B)",
 			description: `I worked remotely for this start-up as a front-end web developer.
 				I did this part-time during my first co-op because I felt the day job wasn't challenging enough.
-				When I was working on this, we used Angular 2 which was quite new so I learnt to adapt quickly and figure things out with limited resources.
+				When I was working on this, we used Angular2 which was quite new so I learnt to adapt quickly and figure things out with limited resources.
 				We used socket.io for web sockets (as it was a real-time trading platform) and I wrote the node.js server to handle the socket channels.
 				By the end of the three months, I created a working prototype mostly independently.`,
-			technologies: "Angular 2, node.js, Typescript, socket.io",
+			technologies: "Angular2, node.js, Typescript, socket.io",
 			imageUrl: "assets/images/metal.jpg"
 		},
 		{
@@ -52,7 +52,7 @@ export class OtherWorkComponent {
 			description: `I worked as an application programmer in VB.NET.
 				The application would read, analyze, and graph agricultural data files.
 				I also updated the CANB Nitrogen Model, which was like a big calculation program written in Fortran.
-				I saw that lots of the existing code could be improved, so I rewrote certain parts with the permission of my manager.
+				I saw that lots of the existing code could be improved, so I rewrote certain parts of it.
 				In addition, I took the initiative to add useful features when I thought of them, such as adding more automation to the testing program.`,
 			technologies: "VB.NET, Fortran",
 			imageUrl: "assets/images/aafc.jpeg"
@@ -63,11 +63,11 @@ export class OtherWorkComponent {
 			id: "work4",
 			title: "This website",
 			timeline: "April 2017 - Now (In progress)",
-			description: `My current website in Angular 2.
+			description: `My current website in Angular2.
 				Its purpose is kind of like a bigger resume. 
 				I use external CSS libraries such as animate.css and Bootstrap, but a lot of my custom CSS is used as well.
 				In the future, I plan to add features like a comments section.`,
-			technologies: "Angular 2",
+			technologies: "Angular2",
 			imageUrl: "assets/images/website1.png",
 			sourceUrl: "https://github.com/YifanM/professional-website-yifan"
 		},
