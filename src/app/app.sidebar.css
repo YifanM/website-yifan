@@ -17,6 +17,8 @@
 	display: none;
 	width: 20vw;
 	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 #sidebar-content > img {

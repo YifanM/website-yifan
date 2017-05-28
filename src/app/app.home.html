@@ -9,5 +9,13 @@
 	  	<h4> Welcome to my website! </h4>
 	  	<h4> There is a small "About Me" section in the sidebar, if you're interested. </h4>
 	  </div>
+	  <div *ngIf="browser === 'ms-edge' || browser === 'ie'">
+	  	<a (click)="toggleWarning()"> Warning </a>
+	  	<div *ngIf="displayWarning">
+	  		<h4> It seems you are using IE or Edge version {{ version }}.
+	  		</h4>
+	  		<h5> I recommend switching to a browser like Chrome or Firefox for the best experience. Some things I used are not supported by IE/Edge. Depending on the particular version of IE/Edge you are using, this website ranges from barely usable to mostly usable. </h5>
+	  	</div>
+	  </div>
 	</div>
 </div>

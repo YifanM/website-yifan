@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { Ng2DeviceDetectorModule } from 'ng2-device-detector';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './app.header';
@@ -54,6 +55,7 @@ const appRoutes: Routes = [
     HttpModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(appRoutes, { useHash: true }),
+    Ng2DeviceDetectorModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

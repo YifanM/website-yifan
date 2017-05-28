@@ -36,3 +36,8 @@
 	justify-content: space-between;
 	align-content: center;
 }
+
+#home a {
+	font-size: 5rem;
+	border: solid 0.1rem;
+}
