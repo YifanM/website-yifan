@@ -7,13 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Ng2DeviceDetectorModule } from 'ng2-device-detector';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './app.header';
-import { FooterComponent } from './app.footer';
-import { HomeComponent } from './app.home';
-import { DocumentsComponent } from './app.documents';
-import { OtherWorkComponent } from './app.otherwork';
-import { SidebarComponent } from './app.sidebar';
-import { UWComponent } from './app.uw';
+import { HeaderComponent } from './header/app.header';
+import { FooterComponent } from './footer/app.footer';
+import { HomeComponent } from './home/app.home';
+import { DocumentsComponent } from './documents/app.documents';
+import { OtherWorkComponent } from './otherwork/app.otherwork';
+import { InvestComponent } from './invest/app.invest';
+import { SidebarComponent } from './sidebar/app.sidebar';
+import { UWComponent } from './uw/app.uw';
 
 const appRoutes: Routes = [
   {
@@ -33,6 +34,10 @@ const appRoutes: Routes = [
     component: UWComponent
   },
   {
+    path: 'invest',
+    component: InvestComponent
+  },
+  {
     path: '**',
     redirectTo: 'home',
   },
@@ -47,14 +52,15 @@ const appRoutes: Routes = [
     DocumentsComponent,
     OtherWorkComponent,
     SidebarComponent,
-    UWComponent
+    UWComponent,
+    InvestComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot(appRoutes, { useHash: true }),
+    RouterModule.forRoot(appRoutes, { useHash: false }),
     Ng2DeviceDetectorModule.forRoot(),
   ],
   providers: [],

@@ -1,0 +1,24 @@
+<div class='invest-table'>
+	<table class='table-condensed'>
+		<thead>
+			<tr>
+				<th>Symbol</th>
+				<th>Amount</th>
+				<th>Paid</th>
+				<th>Value</th>
+				<th>Profit</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let item of investItems">
+				<th>{{ item.symbol }}</th>
+				<th>{{ item.amount }}</th>
+				<th>{{ item.paid }}</th>
+				<th>{{ item.currValue }}</th>
+				<th>{{ item.profit }}</th>
+			</tr>
+		</tbody>
+	</table>
+	<h3>Total Profit</h3>
+	<div>{{ totalProfit }}</div>
+</div>

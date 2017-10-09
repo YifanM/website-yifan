@@ -34,7 +34,6 @@
 	flex-direction: column;
 	align-items: center;
 	width: 80%;
-	height: 100%;
 }
 
 .collapse b, .collapse-in b, .collapsing b {
