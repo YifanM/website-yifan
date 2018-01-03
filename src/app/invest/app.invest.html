@@ -5,6 +5,7 @@
 				<th>Symbol</th>
 				<th>Amount</th>
 				<th>Paid</th>
+				<th>Price</th>
 				<th>Value</th>
 				<th>Profit</th>
 			</tr>
@@ -14,11 +15,14 @@
 				<th>{{ item.symbol }}</th>
 				<th>{{ item.amount }}</th>
 				<th>{{ item.paid }}</th>
+				<th>{{ item.price }}</th>
 				<th>{{ item.currValue }}</th>
 				<th>{{ item.profit }}</th>
 			</tr>
 		</tbody>
 	</table>
-	<h3>Total Profit</h3>
+	<h3>Current Profit</h3>
 	<div>{{ totalProfit }}</div>
+	<h3>Previous Profit</h3>
+	<div>{{ realizedProfit }}</div>
 </div>

@@ -45,3 +45,13 @@ body {
 .invisible {
 	opacity: 0;
 }
+
+.jumbotron {
+	background-color: white;
+	width: 100%;
+}
+
+:root {
+	--main-colour: #ff9a42;
+	--secondary-colour: #ff8c62;
+}

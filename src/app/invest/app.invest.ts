@@ -10,6 +10,7 @@ declare interface InvestItem {
 	paid: number;
 	currValue?: number;
 	profit?: number;
+	price?: number;
 }
 
 @Component({
@@ -23,14 +24,14 @@ export class InvestComponent implements OnInit {
 		{
 			symbol: 'BTC',
 			currency: 'bitcoin',
-			amount: 0.05642855,
-			paid: 300,
+			amount: 0.0449813,
+			paid: 431.72,
 		},
 		{
 			symbol: 'ETH',
 			currency: 'ethereum',
-			amount: 0.51329366,
-			paid: 200,
+			amount: 0.62931066,
+			paid: 243.64,
 		},
 		{
 			symbol: 'XRP',
@@ -45,7 +46,8 @@ export class InvestComponent implements OnInit {
 			paid: 140,
 		},
 	];
-	public totalProfit: number;
+	public totalProfit: number = 0;
+	private realizedProfit: number = 174.64;
 	private baseUrl: string = 'https://api.coinmarketcap.com/v1/ticker/';
 
 	constructor(private http: Http) {}
@@ -60,9 +62,10 @@ export class InvestComponent implements OnInit {
 				const price = res[0].price_cad;
 				const value = this.investItems[index].amount * price;
 				const profit = value - this.investItems[index].paid;
+				this.investItems[index].price = price;
 				this.investItems[index].currValue = value;
 				this.investItems[index].profit = profit;
-				this.totalProfit ? this.totalProfit += profit : this.totalProfit = profit;
+				this.totalProfit += profit;
 			});
 		});
 	}
