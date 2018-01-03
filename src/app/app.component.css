@@ -1,1 +1,1 @@
-#mainWrapper {	margin-left: 2rem;	height: 86%; /* 8% goes to header, 6% goes to footer */	animation-duration: 0.5s;}
+#mainWrapper {	/*margin-left: 2rem;*/	height: 86%; /* 8% goes to header, 6% goes to footer */	max-height: 86%;	animation-duration: 0.5s;}

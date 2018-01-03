@@ -1,17 +1,25 @@
 <div class="jumbotron" class="home">
-	<div class="container text-center">
+	<div class="text-center">
 	  <div class="intro-section">
-	  	<div class="welcome-message">
-	  		Welcome to my website!
-	  	</div>
-	  	<div class="name-intro">
-	  		My name is Yifan. It's nice to meet you.
-	  	</div>
-	  	<div class="university-intro">
-	  		I study Software Engineering at the University of Waterloo. I'm in my 3A term.
-	  	</div>
+		  <div class="text">
+		  	<div class="welcome-message">
+		  		<span class="larger-text"> Welcome </span> to my website!
+		  	</div>
+		  	<div class="name-intro">
+		  		My name is <span class="larger-text"> Yifan </span>. It's nice to meet you.
+		  	</div>
+		  	<div class="university-intro">
+		  		I study <span class="larger-text"> Software Engineering </span> at the <span class="larger-text"> University of Waterloo </span>.
+		  	</div>
+		  	<div class="term-intro">
+		  		 I'm in my <span class="larger-text"> 3A </span> term.
+		  	</div>
+		  </div>
 	  	<div class="circle-picture">
 	  		<img src="assets/images/ILikeIt.JPG">
+	  		<div class="circle-1"></div>
+	  		<div class="circle-2"></div>
+	  		<div class="circle-3"></div>
 	  	</div>
 	  </div>
 	  <div *ngIf="browser === 'ms-edge' || browser === 'ie'">
