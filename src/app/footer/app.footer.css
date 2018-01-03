@@ -10,6 +10,8 @@
 	justify-content: space-around;
 	z-index: 50;
 	background-color: var(--main-colour);
+	font-weight: 500;
+	font-family: 'Nunito Sans', sans-serif;
 }
 
 .footer > div, .footer > a {

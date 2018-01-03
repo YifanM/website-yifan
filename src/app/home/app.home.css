@@ -1,35 +1,9 @@
-#home {
+.home {
 	height: 100%;
 	margin-bottom: 0;
 }
 
-#home .container h1 {
-	font-size: 10rem;
-	font-family: Raleway_Thin, Raleway, sans-serif;
-	flex-grow: 0;
-	border-bottom: 0.2rem solid;
-	margin-bottom: 0.85rem;
-	text-align: left;
-}
-
-#home .container .raleway {
-	flex-grow: 5; 
-	text-align: right;
-}
-
-#home .container > div:not(.raleway) {
-	flex-grow: 10;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.raleway {
-	font-size: 3.5rem;
-	font-family: Raleway_Thin, Raleway, sans-serif;
-}
-
-#home .container {
+.home .container {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -37,7 +11,22 @@
 	align-content: center;
 }
 
-#home a {
+.home a {
 	font-size: 5rem;
 	border: solid 0.1rem;
+}
+
+.home .circle-picture {
+	height: 40vmin;
+	width: 40vmin;
+	border-radius: 50%;
+	background-color: var(--main-colour);
+	border: 5px solid var(--main-colour);
+}
+
+.home .circle-picture img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
 }

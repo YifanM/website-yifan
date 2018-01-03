@@ -1,16 +1,5 @@
 <div id="sidebar">
 	<div id="sidebar-content" [ngClass]="{ 'showFlex': isSidebarOpen }" class="jumbotron">
-		<h3> About Me </h3>
-		<img src="assets/images/ILikeIt.JPG">
-		<div>
-			Other than programming, I enjoy eating yummy food like sushi and playing video games.
-		</div>
-		<div>
-			Badminton and piano are also things that I could be found doing (but sadly I haven't done either very much since I started university).
-		</div>
-		<div>
-			I used to read a lot of fiction books when I was younger, but pretty much all I read now is scary stories on Reddit.
-		</div>
 	</div>
 	<div id="sidebar-selector" (click)="toggleSidebar()">
 		<i *ngIf="!isSidebarOpen" class="fa fa-caret-right"></i>

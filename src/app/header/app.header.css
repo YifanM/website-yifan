@@ -3,8 +3,8 @@
 	margin-bottom: 0;
 	background-color: var(--main-colour);
 	font-size: 1.3vmax;
-	font-weight: 800;
-	font-family: Raleway_Thin, sans-serif;
+	font-weight: 600;
+	font-family: 'Nunito Sans', sans-serif;
 }
 
 .navbar-inverse .navbar-nav>li>a {
