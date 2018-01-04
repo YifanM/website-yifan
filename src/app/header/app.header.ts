@@ -18,25 +18,25 @@ export class HeaderComponent implements OnInit {
 	private pageOrders: {} = { '/home': 0, '/work': 1, '/documents': 2, '/uw': 3 };
 
 	ngOnInit() {
-		this.router.events.pairwise().filter((e) => e[0] instanceof NavigationEnd && e[1] instanceof NavigationStart).subscribe((e: [NavigationStart, NavigationEnd]) => {
-			const isLeft = this.pageOrders[e[0].url] > this.pageOrders[e[1].url];
-			$("#mainWrapper").addClass("invisible");
-			$("#mainWrapper").removeClass("animated slideInLeft");
-			$("#mainWrapper").removeClass("animated slideInRight");
-			setTimeout(() => {
-			if (isLeft) {
-				$("#mainWrapper").removeClass("invisible");
-				$("#mainWrapper").addClass("animated slideInLeft").one("animationend", () => {
-					$("#mainWrapper").removeClass("animated slideInLeft");
-				});
-			} else {
-				$("#mainWrapper").removeClass("invisible");
-				$("#mainWrapper").addClass("animated slideInRight").one("animationend", () => {
-					$("#mainWrapper").removeClass("animated slideInRight");
-				});
-			}
-			})
+		// this.router.events.pairwise().filter((e) => e[0] instanceof NavigationEnd && e[1] instanceof NavigationStart).subscribe((e: [NavigationStart, NavigationEnd]) => {
+		// 	const isLeft = this.pageOrders[e[0].url] > this.pageOrders[e[1].url];
+		// 	$("#mainWrapper").addClass("invisible");
+		// 	$("#mainWrapper").removeClass("animated slideInLeft");
+		// 	$("#mainWrapper").removeClass("animated slideInRight");
+		// 	setTimeout(() => {
+		// 	if (isLeft) {
+		// 		$("#mainWrapper").removeClass("invisible");
+		// 		$("#mainWrapper").addClass("animated slideInLeft").one("animationend", () => {
+		// 			$("#mainWrapper").removeClass("animated slideInLeft");
+		// 		});
+		// 	} else {
+		// 		$("#mainWrapper").removeClass("invisible");
+		// 		$("#mainWrapper").addClass("animated slideInRight").one("animationend", () => {
+		// 			$("#mainWrapper").removeClass("animated slideInRight");
+		// 		});
+		// 	}
+		// 	})
 
-		});
+		// });
 	}
 }

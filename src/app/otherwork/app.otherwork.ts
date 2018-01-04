@@ -15,7 +15,7 @@ declare interface IWorkItem {
 @Component({
   selector: 'app-other-work',
   templateUrl: './app.otherwork.html',
-  styleUrls: ['./app.otherwork.css']
+  styleUrls: ['./app.otherwork.css'],
 })
 
 export class OtherWorkComponent {

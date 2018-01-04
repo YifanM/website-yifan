@@ -11,10 +11,12 @@
 	width: 100%;
 	object-fit: cover;
 	border-radius: 0;
+	background-color: var(--main-colour);
 }
 
 #work img:hover {
 	object-fit: contain !important;
+	background-color: white;
 }
 
 #work h3 {
