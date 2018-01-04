@@ -1,6 +1,6 @@
 <app-header></app-header>
 <!--app-sidebar></app-sidebar-->
-<div id="mainWrapper">
-	<router-outlet></router-outlet>
+<div id="mainWrapper" [@routerAnimation]="animateRouteChange(outlet)">
+	<router-outlet #outlet="outlet"></router-outlet>
 </div>
 <app-footer></app-footer>

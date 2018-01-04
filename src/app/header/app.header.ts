@@ -18,6 +18,8 @@ export class HeaderComponent implements OnInit {
 	private pageOrders: {} = { '/home': 0, '/work': 1, '/documents': 2, '/uw': 3 };
 
 	ngOnInit() {
+		// The page animations have been moved to the router-outlet.
+
 		// this.router.events.pairwise().filter((e) => e[0] instanceof NavigationEnd && e[1] instanceof NavigationStart).subscribe((e: [NavigationStart, NavigationEnd]) => {
 		// 	const isLeft = this.pageOrders[e[0].url] > this.pageOrders[e[1].url];
 		// 	$("#mainWrapper").addClass("invisible");
