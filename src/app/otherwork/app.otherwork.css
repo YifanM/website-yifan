@@ -7,9 +7,10 @@
 
 #work img {
 	height: 30vh;
-	border: #0ce3ac solid 0.2rem;
+	border: var(--main-colour) solid 0.3rem;
 	width: 100%;
 	object-fit: cover;
+	border-radius: 0;
 }
 
 #work img:hover {

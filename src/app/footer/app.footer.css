@@ -26,6 +26,10 @@
 	font-size: 1vmax;
 }
 
+.footer > a:hover {
+	color: var(--secondary-colour);
+}
+
 /*.footer > a:hover,
 .footer > div:hover,
 .footer > a:focus,

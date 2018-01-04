@@ -51,7 +51,16 @@ body {
 	width: 100%;
 }
 
+a {
+	color: var(--main-colour);
+}
+
+a:hover {
+	text-decoration: none;
+	color: var(--secondary-colour);
+}
+
 :root {
 	--main-colour: #ff9a42;
-	--secondary-colour: #ff8c62;
+	--secondary-colour: #ff3714;
 }
