@@ -1,1 +1,1 @@
-#mainWrapper {	/*margin-left: 2rem;*/	height: 86%; /* 8% goes to header, 6% goes to footer */	max-height: 86%;	animation-duration: 0.5s;}#mainWrapper>img {	position: absolute;	z-index: -1;	left: 0;	top: 8%;	height: 86%;	max-height: 86%;	opacity: 0.1;}
+#mainWrapper {	/*margin-left: 2rem;*/	height: 86%; /* 8% goes to header, 6% goes to footer */	max-height: 86%;	animation-duration: 0.5s;}#mainWrapper>img {	position: absolute;	z-index: -1;	left: 0;	top: 8%;	height: 86%;	max-height: 86%;	width: 100%;	opacity: 0.1;}
