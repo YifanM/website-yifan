@@ -1,6 +1,7 @@
 .home {
 	height: 100%;
 	margin-bottom: 0;
+	background-color: transparent;
 }
 
 .home .text-center {

@@ -5,9 +5,9 @@ const slideLeft = [
   query(':enter', style({ position: 'fixed', width: '100%', height: '86%', transform: 'translateX(-100%)' })),
   group([
     query(':leave',
-      animate('0.3s', style({ transform: 'translateX(100%)' }))),
+      animate('1.0s cubic-bezier(0.77, 0, 0.175, 1)', style({ transform: 'translateX(100%)' }))),
     query(':enter',
-      animate('0.3s', style({ transform: 'translateX(0%)' })))
+      animate('1.0s cubic-bezier(0.77, 0, 0.175, 1)', style({ transform: 'translateX(0%)' })))
   ])
 ]
 
@@ -16,9 +16,9 @@ const slideRight = [
   query(':enter', style({ position: 'fixed', width: '100%', height: '86%', transform: 'translateX(100%)' })),
   group([
     query(':leave',
-      animate('0.3s', style({ transform: 'translateX(-100%)' }))),
+      animate('1.0s cubic-bezier(0.77, 0, 0.175, 1)', style({ transform: 'translateX(-100%)' }))),
     query(':enter', 
-      animate('0.3s', style({ transform: 'translateX(0%)' })))
+      animate('1.0s cubic-bezier(0.77, 0, 0.175, 1)', style({ transform: 'translateX(0%)' })))
   ])
 ]
 

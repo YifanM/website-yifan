@@ -1,6 +1,7 @@
 <app-header></app-header>
 <!--app-sidebar></app-sidebar-->
 <div id="mainWrapper" [@routerAnimation]="animateRouteChange(outlet)">
+	<img src="assets/images/background.png">
 	<router-outlet #outlet="outlet"></router-outlet>
 </div>
 <app-footer></app-footer>

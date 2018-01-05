@@ -43,7 +43,7 @@ export class OtherWorkComponent {
 				We used socket.io for web sockets (as it was a real-time trading platform) and I wrote the node.js server to handle the socket channels.
 				By the end of the three months, I created a working prototype mostly independently.`,
 			technologies: "Angular2, node.js, Typescript, socket.io",
-			imageUrl: "assets/images/metal.jpg"
+			imageUrl: "assets/images/placeholder.jpg"
 		},
 		{
 			id: "work3",
@@ -165,7 +165,7 @@ export class OtherWorkComponent {
 				I'll come back to this some day.`,
 			technologies: "OpenGL, C",
 			sourceUrl: "https://github.com/YifanM/game-of-life",
-			imageUrl: "assets/images/gol.png"
+			imageUrl: "assets/images/placeholder.jpg"
 		},
 		{
 			id: "work13",

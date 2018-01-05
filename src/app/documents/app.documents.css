@@ -5,6 +5,7 @@
 #documents {
 	height: 100%;
 	margin-bottom: 0;
+	background-color: transparent;
 }
 
 #documents .container {
