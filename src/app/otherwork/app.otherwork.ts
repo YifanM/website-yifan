@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+// TODO: prerender images, seems to be some latency on first load, possibly because of object-fit resizing
+
 declare interface IWorkItem {
 	id: string;
 	title: string;
