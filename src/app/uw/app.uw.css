@@ -10,6 +10,10 @@
 	background-color: transparent;
 }
 
+#uw h3 {
+	font-size: 1.4vmax;
+}
+
 #uw .container-fluid {
 	margin: auto;
 	flex-grow: 1;
@@ -21,6 +25,7 @@
 	width: 80vw;
 	flex-grow: 5;
 	max-height: calc(100% - 10rem);
+	font-size: 0.8vmax;
 }
 
 .table > thead {
