@@ -18,12 +18,12 @@ import { Ng2DeviceService } from 'ng2-device-detector';
     		query('.circle-1', style({ opacity: 0 })),
     		query('.circle-2', style({ opacity: 0 })),
     		query('.circle-3', style({ opacity: 0 })),
-    		query('.welcome-message', animate('2s 1s', style({ opacity: 1, transform: 'translateY(0%)' }))),
-    		query('.university-intro', animate('0.75s 1s', style({ opacity: 1, transform: 'translateY(0%)' }))),
-    		query('.circle-3', animate('0.4s 1s', style({ opacity: 1 }))),
-    		query('.circle-2', animate('0.4s 0.3s', style({ opacity: 1 }))),
-    		query('.circle-1', animate('0.4s 0.3s', style({ opacity: 1 }))),
-    		query('.circle-picture>img', animate('0.6s 0.3s', style({ opacity: 1 }))),
+    		query('.welcome-message', animate('2s 1s cubic-bezier(0.55, 0.055, 0.675, 0.19)', style({ opacity: 1, transform: 'translateY(0%)' }))),
+    		query('.university-intro', animate('0.75s 1s cubic-bezier(0.55, 0.055, 0.675, 0.19)', style({ opacity: 1, transform: 'translateY(0%)' }))),
+    		query('.circle-3', animate('0.4s 1s cubic-bezier(0.55, 0.055, 0.675, 0.19)', style({ opacity: 1 }))),
+    		query('.circle-2', animate('0.4s 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19)', style({ opacity: 1 }))),
+    		query('.circle-1', animate('0.4s 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19)', style({ opacity: 1 }))),
+    		query('.circle-picture>img', animate('1s 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19)', style({ opacity: 1 }))),
     	])
   	])
   ]
