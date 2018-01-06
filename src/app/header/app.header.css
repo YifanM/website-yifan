@@ -1,4 +1,40 @@
+/*TODO: make responsive*/
+
 .navbar {
-	height: 6rem;
+	height: 8%;
 	margin-bottom: 0;
+	background-color: var(--main-colour);
+	font-size: 1.3vmax;
+	font-weight: 500;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	transition: all linear 0.2s;
+	height: 100%;
+	border-bottom: 6px solid transparent;
+}
+
+.container-fluid, .nav.navbar-nav {
+	background-color: transparent;
+	height: 100%;
+}
+
+.nav.navbar-nav>li {
+	background-color: transparent;
+	height: calc(100% + 6px);
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+	background-color: white;
+	color: var(--main-colour);
+	border-bottom: 6px solid var(--main-colour);
 }

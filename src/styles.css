@@ -5,6 +5,7 @@ body {
 	width: 100vw;
 	max-height: 100%;
 	max-width: 100%;
+	color: black;
 }
 
 @font-face{
@@ -44,4 +45,23 @@ body {
 
 .invisible {
 	opacity: 0;
+}
+
+.jumbotron {
+	background-color: white;
+	width: 100%;
+}
+
+a {
+	color: var(--main-colour);
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	color: var(--secondary-colour);
+}
+
+:root {
+	--main-colour: #ff9a42;
+	--secondary-colour: #ff3714;
 }

@@ -4,26 +4,42 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 4rem;
-	padding: 1rem;
+	height: 6%;
 	background-color: black;
 	display: flex;
 	justify-content: space-around;
 	z-index: 50;
+	background-color: var(--main-colour);
+	font-weight: 500;
+	font-family: 'Nunito Sans', sans-serif;
 }
 
 .footer > div, .footer > a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	color: white;
+	height: 100%;
+	padding: 1rem;
+	text-decoration: none;
+	transition: all linear 0.2s;
+	font-size: 1vmax;
 }
+
+.footer > a:hover {
+	color: var(--secondary-colour);
+}
+
+/*.footer > a:hover,
+.footer > div:hover,
+.footer > a:focus,
+.footer > div:focus {
+	background-color: white;
+	color: var(--main-colour);
+}*/
 
 .footer i {
 	position: relative;
 	margin-right: 0.8rem;
-	font-size: 3.2rem;
-}
-
-#phone {
-	color: white;
+	font-size: 2vmax;
 }

@@ -3,21 +3,30 @@
 	margin-bottom: 0;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	background-color: transparent;
 }
 
 #work img {
-	height: 30vh;
-	border: #0ce3ac solid 0.2rem;
+	height: 35vh;
+	border: var(--main-colour) solid 0.15vmax;
 	width: 100%;
 	object-fit: cover;
+	border-radius: 0;
+	background-color: var(--main-colour);
+	border-radius: 6px;
 }
 
-#work img:hover {
+#work img:hover, #work img:focus {
 	object-fit: contain !important;
+	background-color: white;
+	border: var(--secondary-colour) solid 0.15vmax;
 }
 
 #work h3 {
-	text-decoration: underline;
+	font-size: 2vmax;
+	font-weight: 550;
+	margin-bottom: 2%;
+	margin-top: 2%;
 }
 
 #indesign-carousel {
@@ -33,33 +42,41 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 80%;
+	width: 95%;
+}
+
+.work-item-title {
+	font-size: 1vmax;
 }
 
 .collapse b, .collapse-in b, .collapsing b {
-	font-size: 1.6rem;
+	font-size: 0.95vmax;
+}
+
+.collapse .list-group {
 }
 
 .lowTopHeader {
 	margin-top: 1.5rem;
 }
 
-#work h3 {
-	margin-bottom: 2.5rem;
-}
-
 #work .row {
-	margin-bottom: 1rem;
+	margin-bottom: 24px;
 }
 
 #work .list-group {
 	margin-top: 1rem;
 	text-align: left;
-	font-size: 1.3rem;
+	font-size: 0.8vmax;
 }
 
 #work .collapse, #work .collapse-in, #work .collapsing {
 	width: 100%;
+}
+
+#work .collapse .list-group, #work .collapse-in .list-group, #work .collapsing .list-group {
+	border: 0.1vmax solid var(--main-colour);
+	border-radius: 4px;
 }
 
 #work .col-sm-4, .col-sm-3 {

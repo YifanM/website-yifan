@@ -1,20 +1,37 @@
-<div class="jumbotron" id="home">
-	<div class="container text-center">
-	  <h1> Yifan Ma </h1>
-	  <div class="raleway">
-	  	<div> University of Waterloo </div>
-	  	<div> Software Engineering, 2020 </div>
-	  </div>
-	  <div>
-	  	<h4> Welcome to my website! </h4>
-	  	<h4> There is a small "About Me" section in the sidebar, if you're interested. </h4>
+<div class="jumbotron" class="home" [@pageLoaded]="initialLoad">
+	<div class="text-center">
+	  <div class="intro-section">
+		  <div class="text">
+		  	<div class="welcome-message">
+		  		<div>
+		  			<span class="larger-text"> Welcome </span> to my website!
+		  		</div>
+		  		<div>
+		  			My name is <span class="larger-text"> Yifan. </span> It's nice to meet you.
+		  		</div>
+		  	</div>
+		  	<div class="university-intro">
+		  		<div>
+		  			I study <span class="larger-text"> Software Engineering </span> at the <span class="larger-text"> University of Waterloo. </span>
+		  		</div>
+		  		<div>
+		  			I'm in my <span class="larger-text"> 3A </span> term.
+		  		</div>
+		  	</div>
+		  </div>
+	  	<div class="circle-picture">
+	  		<img src="assets/images/ILikeIt.JPG">
+	  		<div class="circle-1"></div>
+	  		<div class="circle-2"></div>
+	  		<div class="circle-3"></div>
+	  	</div>
 	  </div>
 	  <div *ngIf="browser === 'ms-edge' || browser === 'ie'">
 	  	<a (click)="toggleWarning()"> Warning </a>
 	  	<div *ngIf="displayWarning">
 	  		<h4> It seems you are using IE or Edge version {{ version }}.
 	  		</h4>
-	  		<h5> I recommend switching to a browser like Chrome or Firefox for the best experience. Some things I used are not supported by IE/Edge. Depending on the particular version of IE/Edge you are using, this website ranges from barely usable to mostly usable. </h5>
+	  		<h5> I recommend switching to Chrome for the best experience. </h5>
 	  	</div>
 	  </div>
 	</div>

@@ -1,3 +1,6 @@
+<h4>
+	Hi there. You aren't supposed to see this (but if you found it, you probably already know that). This is a page I made so I can check how much money I made from crypto.
+</h4>
 <div class='invest-table'>
 	<table class='table-condensed'>
 		<thead>
@@ -5,6 +8,7 @@
 				<th>Symbol</th>
 				<th>Amount</th>
 				<th>Paid</th>
+				<th>Price</th>
 				<th>Value</th>
 				<th>Profit</th>
 			</tr>
@@ -14,11 +18,14 @@
 				<th>{{ item.symbol }}</th>
 				<th>{{ item.amount }}</th>
 				<th>{{ item.paid }}</th>
+				<th>{{ item.price }}</th>
 				<th>{{ item.currValue }}</th>
 				<th>{{ item.profit }}</th>
 			</tr>
 		</tbody>
 	</table>
-	<h3>Total Profit</h3>
+	<h3>Current Profit</h3>
 	<div>{{ totalProfit }}</div>
+	<h3>Previous Profit</h3>
+	<div>{{ realizedProfit }}</div>
 </div>
