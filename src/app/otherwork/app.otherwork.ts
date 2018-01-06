@@ -79,16 +79,16 @@ export class OtherWorkComponent {
 				imageUrl: "assets/images/placeholder.jpg"
 			},
 			{
-				id: "workinvenbot",
-				title: "Inventory Slackbot",
+				id: "worknotehead",
+				title: "Note Heads",
 				timeline: "",
 				description: '',
 				technologies: "",
 				imageUrl: "assets/images/placeholder.jpg"
 			},
 			{
-				id: "worknotehead",
-				title: "Note Heads",
+				id: "workinvenbot",
+				title: "Inventory Slackbot",
 				timeline: "",
 				description: '',
 				technologies: "",
