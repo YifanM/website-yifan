@@ -16,6 +16,9 @@
 		    		<li class="list-group-item">
 		    			<b>Timeline:</b> {{ item.timeline }}
 		    		</li>
+		    		<li *ngIf="item.jobTitle" class="list-group-item">
+		    			<b>Position:</b> {{ item.jobTitle }}
+		    		</li>
 		    		<li class="list-group-item">
 		    			<b>Description:</b> {{ item.description }}
 		    		</li>
@@ -51,7 +54,7 @@
 		  	</a>
 		    <div class="collapse" [attr.id]="item.id">
 		    	<ul class="list-group">
-		    		<li class="list-group-item">
+		    		<li class="list-group-item" *ngIf="item.timeline">
 		    			<b>Timeline:</b> {{ item.timeline }}
 		    		</li>
 		    		<li class="list-group-item">
