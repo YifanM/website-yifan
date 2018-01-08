@@ -40,7 +40,7 @@ export class OtherWorkComponent {
 			jobTitle: "Full Stack Web Developer",
 			timeline: "January 2017 - April 2017 (2A)",
 			description: `I worked on a content management web app using AngularJS and LESS.
-				I worked well with my team and completed almost 100 stories over the four months.
+				I worked well with my team in order to complete almost 100 stories over the four months.
 				Also, I updated many of the UI's unit tests.`,
 			technologies: "AngularJS, Typescript, LESS",
 			imageUrl: "assets/images/imagine-communications.png"
@@ -84,7 +84,7 @@ export class OtherWorkComponent {
 				id: "worknotehead",
 				title: "Note Heads",
 				description: `A note-taking app that uses the same idea as Facebook Messenger's chat heads.
-				I use my phone to keep reminders so I created this app because I wanted to view them from any screen.
+				I use my phone to keep reminders so I created this app because I wanted to view my reminders from any screen.
 				Although this project is in React Native, there is currently no iOS component.`,
 				sourceUrl: 'https://github.com/YifanM/note-heads',
 				technologies: "React Native, Redux",
