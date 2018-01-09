@@ -63,7 +63,7 @@ export class OtherWorkComponent {
 			timeline: "May 2016 - September 2016 (1B)",
 			description: `I worked on an graphing application in VB.NET.
 				I also updated a scientific model written in Fortran.
-				When I had time, I took the intiative to add features and improve the existing code.`,
+				When I had time, I took the initiative to add features and improve the existing code.`,
 			technologies: "VB.NET, Fortran",
 			imageUrl: "assets/images/aafc.jpeg"
 		},
@@ -75,7 +75,7 @@ export class OtherWorkComponent {
 				title: "Reddit Couplet Bot",
 				description: `A bot that parses Reddit comments for couplets.
 				This bot interprets a couplet as two valid English lines that have the same number of syllables and also rhyme.
-				Algorithms involving language are typically very difficult to implement, so I used heuristics and external databases.`,
+				Algorithms involving language are typically very difficult to implement, so I used heuristics and APIs.`,
 				sourceUrl: 'https://github.com/YifanM/reddit-couplet-bot',
 				technologies: "Python",
 				imageUrl: 'assets/images/couplet-bot.png'
@@ -84,6 +84,7 @@ export class OtherWorkComponent {
 				id: "worknotehead",
 				title: "Note Heads",
 				description: `A note-taking app that uses the same idea as Facebook Messenger's chat heads.
+				The chat heads part requires native code.
 				I use my phone to keep reminders so I created this app because I wanted to view my reminders from any screen.
 				Although this project is in React Native, there is currently no iOS component.`,
 				sourceUrl: 'https://github.com/YifanM/note-heads',
