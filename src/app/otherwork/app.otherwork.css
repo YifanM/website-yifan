@@ -6,7 +6,7 @@
 	background-color: transparent;
 }
 
-#work img {
+#work img.img-rounded {
 	height: 35vh;
 	border: var(--main-colour) solid 0.15vmax;
 	width: 100%;
@@ -16,7 +16,7 @@
 	border-radius: 6px;
 }
 
-#work img:hover, #work img:focus {
+#work img.img-rounded:hover, #work img.img-rounded:focus {
 	object-fit: contain !important;
 	background-color: white;
 	border: var(--secondary-colour) solid 0.15vmax;
@@ -54,6 +54,10 @@
 }
 
 .collapse .list-group {
+}
+
+.line-space {
+	white-space: pre-line;
 }
 
 .lowTopHeader {
