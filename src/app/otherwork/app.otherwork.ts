@@ -107,6 +107,7 @@ Drawing views on the foreground required native code. \
 Although this project is in React Native, there is currently no iOS component.`,
 				sourceUrl: 'https://github.com/YifanM/note-heads',
 				technologies: "React Native, Redux",
+				imageUrl: 'assets/images/note-heads.png'
 			},
 			{
 				id: "workinvenbot",
