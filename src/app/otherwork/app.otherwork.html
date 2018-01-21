@@ -46,7 +46,7 @@
 		  <div class="col-sm-3" *ngFor='let item of projectRow'>
 		  	<a class="work-item" [attr.href]="'#' + item.id" data-toggle="collapse" (click)="toggleExpanded(item)">
 			  <img class="img-responsive img-rounded" [src]="item.imageUrl || 'assets/images/placeholder.jpg'" />
-		      <div>
+		      <div class="work-item-title">
 		      	{{ item.title }}
 		      	<i *ngIf="item.isOpen" class="fa fa-caret-down"></i>
 		      	<i *ngIf="!item.isOpen" class="fa fa-caret-up"></i>
