@@ -136,7 +136,6 @@ Although I use a library for the collapsible work items, the rest is basically m
 				technologies: "React",
 				imageUrl: "assets/images/gomoku.png",
 				sourceUrl: "https://github.com/YifanM/gomoku-react",
-				demoUrl: "assets/gomoku/index.html",
 			},
 			{
 				id: "work6",
@@ -145,7 +144,6 @@ Although I use a library for the collapsible work items, the rest is basically m
 				technologies: "JQuery",
 				imageUrl: "assets/images/website2.png",
 				sourceUrl: "https://github.com/YifanM/YifanM.github.io",
-				demoUrl: "http://YifanM.github.io"
 			},
 			{
 				id: "work8",
@@ -154,7 +152,6 @@ Although I use a library for the collapsible work items, the rest is basically m
 				technologies: "HTML5 Canvas, JQuery",
 				imageUrl: "assets/images/adoorable.png",
 				sourceUrl: "https://github.com/YifanM/adoorable",
-				demoUrl: "assets/adoorable/adoorable.html"
 			},
 			{
 				id: "work7",
