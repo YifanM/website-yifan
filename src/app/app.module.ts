@@ -29,14 +29,14 @@ const appRoutes: Routes = [
     path: 'documents',
     component: DocumentsComponent
   },
-  {
-    path: 'uw',
-    component: UWComponent
-  },
-  {
-    path: 'invest',
-    component: InvestComponent
-  },
+  // {
+  //   path: 'uw',
+  //   component: UWComponent
+  // },
+  // {
+  //   path: 'invest',
+  //   component: InvestComponent
+  // },
   {
     path: '**',
     redirectTo: 'home',
